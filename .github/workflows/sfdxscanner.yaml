@@ -20,7 +20,7 @@ jobs:
         uses: mitchspano/sfdx-scan-pull-request@v0.1.8
         with:
           pmdconfig: pmd/ruleset.xml
-          severity-threshold: 4
+          severity-threshold: 3
           strictly-enforced-rules: '[{ "engine": "pmd", "category": "Performance", "rule": "AvoidDebugStatements" }]'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
