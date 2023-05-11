@@ -39,6 +39,6 @@ jobs:
               
             # Deploy source to Acc org
             - name: 'Push source to Acc org'
-              run: sfdx force:source:deploy -u meeraacc@gmail.com -p force-app/main/default
+              run: sfdx force:source:deploy -u sanandhan@sanandhan-230112-714.demo -p force-app/main/default
 
    
