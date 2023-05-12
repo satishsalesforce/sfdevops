@@ -74,7 +74,7 @@ jobs:
         run: |
             echo "value from output variable is"
             echo ${{ steps.changedfiles.outputs.CHANGED_FILES }}
-            sfdx force:source:deploy -u meeraacc@gmail.com -p ${{ steps.changedfiles.outputs.CHANGED_FILES }}
+            sfdx force:source:deploy -u sanandhan@sanandhan-230112-714.demo -p ${{ steps.changedfiles.outputs.CHANGED_FILES }}
             
           
           
